@@ -17,4 +17,5 @@ const out = chunkss.map((chunk) => { //chunk = 'one=1'
     return {key: key, value: value};
 });
 
-// console.log(out);
+// console.log(out); //[{…}, {…}, {…}] 여기서 얻은 결과값은 하나의 객체가 아니라 배열이다. 
+//만약 배열을 객체로 변환하고 싶다면 reduce()함수를 사용하면 된다. 내가 정리한 reduce.js를 보자

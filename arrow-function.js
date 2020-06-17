@@ -38,4 +38,4 @@ class MyClass{
 }
 
 var m = new MyClass();
-console.log(m);
+// console.log(m);

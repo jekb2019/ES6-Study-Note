@@ -17,7 +17,7 @@ const val = sum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
     })// returns [{key: 'one', value:'1'}, {key: 'two', value:'2'}, {key: 'three', value:'3'}]
     .reduce((result,item) => {
         result[item.key] = item.value;
-        console.log(result);
+        // console.log(result);
         return result;
     },{}); //{}는 result의 초기값
     //result의 마지막 값은 {one: "1", two: "2", three: "3"}가 된다.

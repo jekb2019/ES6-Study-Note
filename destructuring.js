@@ -1,3 +1,5 @@
+'use strict';
+
 //ES5 example
 
 //extracting elements
@@ -35,11 +37,11 @@ var [
     item2,
     item3 = -1,
 ] = list;
-console.log(`${item1} ${item2} ${item3}`); //0 1 -1
+// console.log(`${item1} ${item2} ${item3}`); //0 1 -1
 
 //easy switching place between elements
 [item2, item1] = [item1, item2];
-console.log(`${item1} ${item2} ${item3}`); //1 0 -1
+// console.log(`${item1} ${item2} ${item3}`); //1 0 -1
 
 var obj = {
     key1: 'one111',

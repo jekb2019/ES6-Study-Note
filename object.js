@@ -1,3 +1,4 @@
+'use strict';
 
 //ES5 Eaxmple declaring, modifying objects - 불편함
 {
@@ -31,7 +32,7 @@
     let y = 10;
 
     const obj = {x, y}; //객체에 변수를 선언할 때 키 값을 생략하면 자동으로 키의 이름으로 키값을 지정하는 편리함
-    console.log(obj); //{x: 10, y: 10}
+    // console.log(obj); //{x: 10, y: 10}
 
     //객체 생성 블록 안에 대활호 [] 를 사용하여 표현식을 작성하면 추가하여 계산된 키 값을 생성 할 수 있는 편리함
     let randomKeyString = 'other';
